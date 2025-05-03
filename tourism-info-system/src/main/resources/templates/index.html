@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>主页</title>
+</head>
+<body>
+<h1>欢迎来到东饶古村旅游信息系统</h1>
+<p>欢迎, <span th:text="${username}"></span>!</p>
+<a th:href="@{/logout}">退出登录</a>
+</body>
+</html>
